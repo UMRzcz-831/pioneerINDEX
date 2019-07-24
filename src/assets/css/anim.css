@@ -1,0 +1,27 @@
+@keyframes bottom-top{
+        
+        
+    from{
+        opacity: 0;
+        
+        transform: translate(0,100%);
+    }
+    to{
+        visibility: visible;
+        transform: translate(0,0);
+    }
+}
+
+  @keyframes top-bottom{
+  
+  
+  from{
+      opacity: 0;
+      
+      transform: translate(0,-100%);
+  }
+  to{
+      visibility: visible;
+      transform: translate(0,0);
+  }
+}
